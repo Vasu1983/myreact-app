@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
-
+import Login from './Login'; 
 function App() {
   return (
     <div className="App">
@@ -19,7 +19,7 @@ function App() {
         </a>
         <img src={logo} className="App-logo" alt="logo" height="150" width="150"/>
       </header>
-      
+      <Login />
     </div>
   );
 }
