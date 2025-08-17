@@ -15,9 +15,11 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Hello Vasu
         </a>
+        <img src={logo} className="App-logo" alt="logo" height="150" width="150"/>
       </header>
+      
     </div>
   );
 }
